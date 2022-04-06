@@ -17,7 +17,7 @@ export default {
   color: white;
 }
 .Main {
-  width:1200px;
+  width: 1200px;
   margin: 0px auto;
 }
 </style>

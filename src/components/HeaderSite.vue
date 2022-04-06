@@ -33,7 +33,6 @@ export default {
   font-size: 0.8rem;
   font-weight: bold;
   color: lightslategray;
-
 }
 .header {
   padding-top: 1%;
@@ -42,10 +41,10 @@ export default {
   justify-content: space-between;
   align-items: center;
   margin: 0px auto;
-  width:1200px;
+  width: 1200px;
 }
 img {
-  height: 60px;
+  height: 55px;
 }
 nav {
   ul {
