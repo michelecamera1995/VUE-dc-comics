@@ -1,5 +1,7 @@
 <template>
-  <div class="hello"></div>
+  <div id="Main">
+    <div class="Main">`Content goes here!`</div>
+  </div>
 </template>
 
 <script>
@@ -9,7 +11,13 @@ export default {
 </script>
 
 <style scoped lang="scss">
-h3 {
-  margin: 40px 0 0;
+#Main {
+  background-color: black;
+  padding: 5%;
+  color: white;
+}
+.Main {
+  width:1200px;
+  margin: 0px auto;
 }
 </style>
