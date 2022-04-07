@@ -37,13 +37,13 @@ export default {
 .Main {
   display: flex;
   justify-content: center;
-   flex-grow: 1;
-   flex-wrap: wrap;
-   padding-top: 5%;
-   padding-bottom: 5%;
-   position: relative;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  position: relative;
 }
-.currentLabel{
+.currentLabel {
   position: absolute;
   top: -3%;
   left: 5%;
@@ -52,7 +52,7 @@ export default {
   background-color: rgb(48, 131, 255);
   padding: 15px 15px;
 }
-#jumbo{
+#jumbo {
   background-image: url("@/assets/jumbotron.jpg");
   height: 350px;
   z-index: 5;
