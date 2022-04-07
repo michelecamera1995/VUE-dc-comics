@@ -49,7 +49,7 @@
       <!--MID FOOTER-->
 
       <div id="MidFooter">
-        <div id="sitemap" class="container" >
+        <div id="sitemap" class="container">
           <div class="flex">
             <div class="col">
               <div>
@@ -182,9 +182,11 @@ export default {
     }
   }
   #dclogo {
+    display: flex;
+    justify-content: flex-end;
     img {
-      width: 50%;
-      height: 50%;
+      width: 70%;
+      height: 100%;
     }
   }
 }

@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <HeaderSite />
-    <MainSite />
+    <MainSite :comics="comics" />
     <FooterSite />
   </div>
 </template>
@@ -10,9 +10,16 @@
 import HeaderSite from "./components/HeaderSite.vue";
 import MainSite from "./components/MainSite.vue";
 import FooterSite from "./components/FooterSite.vue";
+// data
+import comics from "@/assets/data/dc-comics";
 
 export default {
   name: "App",
+  data() {
+    return {
+      comics,
+    };
+  },
   components: {
     HeaderSite,
     MainSite,
@@ -62,7 +69,7 @@ export default {
   align-content: center;
   align-items: center;
 }
-.container{
+.container {
   width: 1200px;
   margin: 0 auto;
 }
