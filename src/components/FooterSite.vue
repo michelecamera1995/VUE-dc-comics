@@ -49,7 +49,7 @@
       <!--MID FOOTER-->
 
       <div id="MidFooter">
-        <div id="sitemap">
+        <div id="sitemap" class="container" >
           <div class="flex">
             <div class="col">
               <div>
@@ -106,7 +106,7 @@
       <!--BOTTOM FOOTER-->
 
       <div id="BottomFooter">
-        <div id="bottombar">
+        <div id="bottombar" class="container">
           <div class="flex adjust">
             <a class="button" href="#">SIGN UP NOW!</a>
             <div class="socialbottom">
@@ -164,8 +164,6 @@ export default {
   display: flex;
   color: lightgray;
   #sitemap {
-    margin: 0px auto;
-    width: 1200px;
     .col {
       color: white;
       display: flex;
@@ -195,8 +193,6 @@ export default {
   background-color: #303030;
   height: 111px;
   #bottombar {
-    width: 1200px;
-    margin: 0 auto;
     .button {
       margin-top: 35px;
       border: 2px solid blue;

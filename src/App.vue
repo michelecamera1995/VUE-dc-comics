@@ -28,4 +28,42 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+* li {
+  list-style-type: none;
+}
+* a {
+  text-decoration: none;
+  color: lightgrey;
+  font-size: 0.7rem;
+  color: lightslategray;
+}
+* a:hover {
+  text-decoration: none;
+  color: lightgray;
+}
+* a:focus {
+  text-decoration: none;
+  color: lightgray;
+}
+* a:active {
+  text-decoration: none;
+  color: lightgray;
+}
+.flex {
+  display: flex;
+}
+.adjust {
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
 </style>
